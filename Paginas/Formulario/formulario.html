@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Esta es una practica de la creación de un formulario" >
+    <meta name="keywords" content="Formularios">
+    <meta name="author" content="Leandro Moya Rodríguez">
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-1">Formulario</h1>
+  </header>
+  <main class="principal " >
+    <section>
+      <article>
+        <form class="texto">
+          <div class="flex">
+            <p>Nombre :</p> 
+            <input class="m-l" type="text" name="nombre" size="40" placeholder="Nombre" required>
+          </div>
+
+          <div class="flex">
+            <p>Año de nacimiento :</p> 
+            <input class="m-l" type="number" name="nacido" min="1" placeholder="Fecha de nacimiento" required> 
+          </div>
+
+          <div class="flex">
+            <p>Sexo :</p>       
+            <input class="m-l" type="radio" name="hm" value="h"> <p>Hombre</p>
+            <input class="m-l" type="radio" name="hm" value="m" required> <p>Mujer</p>
+          </div>
+
+          <div class="flex"> 
+            <p>Edad :</p>
+            <input class="m-l" type="radio" name="edad" value="menor"><p>Menor</p>
+            <input class="m-l" type="radio" name="edad" value="adulto" required><p>Adulto</p>
+          </div>
+          <div class="flex">
+          <p style="width: fit-content;">Provincia :</p>
+            <select class="m-l" name="provincias">
+              <option>Alajuela</option>
+              <option>San José</option>
+              <option>Heredia</option>
+              <option>Puntarenas</option>
+              <option>Limón</option>
+              <option>Cartago</option>
+              <option>Guanacaste</option>
+            </select>
+          </div>
+
+          <div>
+            <input class=" texto" type="submit" value="Enviar">
+            <input class="m-l texto" type="reset"  value="Borrar">
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+ 
+</body>
+</html>
