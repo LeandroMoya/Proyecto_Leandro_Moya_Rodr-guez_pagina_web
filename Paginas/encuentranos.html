@@ -36,19 +36,19 @@
                     src="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/iconos/cerrar.png" 
                     alt="Es icono es para cerrar el menú">
                     <div>
-                        <a class="pagina" href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/index.html">Inicio</a>
+                        <a class="pagina" href="/index.html">Inicio</a>
                         <p class="separados"> <b>|</b> </p>
                         <a class="pagina pagina_actual" href="#">Encuéntranos</a>
                         <p class="separados"><b>|</b></p>
                         
                         <div class="contenedor-lista">
-                            <a class="pagina desplegar-lista" href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html">Productos</a>
+                            <a class="pagina desplegar-lista" href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/productos.html">Productos</a>
                             <ul class="lista texto">
-                                <li> <a href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html#aceites">Aceites</a></li>
-                                <li><a href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html#llantas">Llantas</a></li>
-                                <li><a href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html#cascos">Cascos</a></li>
-                                <li><a href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html#accesorios">Accesorios</a></li>
-                                <li><a href="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/productos.html#filtros">Filtros</a></li>
+                                <li> <a href="/Paginas/productos.html#aceites">Aceites</a></li>
+                                <li><a href="/Paginas/productos.html#llantas">Llantas</a></li>
+                                <li><a href="/Paginas/productos.html#cascos">Cascos</a></li>
+                                <li><a href="/Paginas/productos.html#accesorios">Accesorios</a></li>
+                                <li><a href="/Paginas/productos.html#filtros">Filtros</a></li>
                             </ul>
                         </div>
 
@@ -133,6 +133,40 @@
             </article>
         </section>
 
+        <section class="seccion_informativa">
+            <article class="contactos">
+                
+                    <h2 class="titulo_2">Envía un mensaje</h2> 
+                    <form class="texto formulario"  action="https://formsubmit.co/207550943@ina.cr" method="POST" >
+                        <ul>
+                            <li class="d-flex f-column">
+                                <label name ="Nombre">Nombre</label>
+                                <input class="cuadro_texto m-l" type="text" name="name" required/>
+                            </li>
+        
+                            <li class="d-flex f-column">
+                                <label  name="Correo">Correo </label>
+                                <input class="cuadro_texto m-l" type="email" name="email" required/>
+                            </li>
+        
+                            <li class="d-flex f-column">
+                                <label name="Asunto">Asunto </label> 
+                                <input class="cuadro_texto m-l" type="text" name="subject" required/>
+                            </li>
+                            <li class="d-flex f-column">
+                                <label name="Comentario">Comentario</label>
+                                <textarea class="cuadro_texto area_texto" name="comments" required></textarea> 
+                            </li>
+                            <li class="d-flex f-space-around">
+                                <input class="botones" type="submit" value="Enviar"/>
+                                <input class="botones" type="reset" value="Limpiar"/>
+                                <input type="hidden" name="_next" value="https://leandromoya.github.io/Proyecto_Leandro_Moya_Rodr-guez_pagina_web/Paginas/encuentranos.html">
+                                <input type="hidden" name="_captcha" value="false">
+                            </li>
+                        </ul>  
+                    </form>
+                </article>
+            </section>
     </main>
 
     <footer class="pie_de_pagina">

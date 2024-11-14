@@ -12,6 +12,48 @@
     --gris-titulo-2: rgb(115, 110, 110);
 }
 
+.formulario{
+    width: 70%;
+}
+
+.area_texto{
+    max-width: 745px;
+    max-height: 160px;
+}
+
+.botones{
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 2% 5% ;
+    background-color: var(--azul-pastel);
+    color: var(--blanco);
+    border-color: transparent;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
+.f-space-around{
+    justify-content: space-around;
+}
+
+.cuadro_texto{
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 1.5%;
+}
+
+
 *,.carousel-inner{
     margin: 0%;
     padding: 0%;
